@@ -39,7 +39,7 @@ public class CollectController {
 	public Response<String> sendKafka(HttpServletRequest request, HttpServletResponse response) {
 		String message = request.getParameter("message");
 		try {
-			// message = "8888888888888";
+			 message = "8888888888888";
 			if (StringUtils.isEmpty(message)) {
 				logger.info("send kafka的消息={}", message);
 				return new Response(ResultCode.EXCEPTION, "发送kafka失败, send message is null!", null);
