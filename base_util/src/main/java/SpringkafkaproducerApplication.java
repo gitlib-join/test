@@ -10,6 +10,4 @@ public class SpringkafkaproducerApplication {
         SpringApplication.run(SpringkafkaproducerApplication.class, args);
 		//test11
     }
-
-
 }
